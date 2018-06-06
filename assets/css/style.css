@@ -1,0 +1,120 @@
+ 
+body {
+    background-image: url("../images/default.jpg");
+    background-size: 1280px 700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-origin: content-box;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(216, 216, 9);
+    text-shadow: slategray;
+    text-rendering: initial;
+    padding-top: 15px;  
+    font-size: 50px;
+    font-family: 'Fugaz One', cursive;
+    height: 100px;
+    text-decoration: underline;
+}
+#time {
+    text-align: center;
+    font-family: 'Niconne', cursive;
+    font-size: 25px;
+    color: rgb(226, 253, 173);
+    font-weight: bold;
+    height: 60px;
+}
+#quest {
+    text-align: center;
+    font-family: 'Yatra One', cursive;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    height: 60px; 
+}
+#ans1, #ans2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    color: rgb(10, 5, 5);
+    font-weight: bold;
+    display: inline;
+    border: 2px solid teal;
+    text-decoration: none;
+    
+}
+
+#ans2{
+    margin-left: 40px;
+}
+
+#ans3, #ans4 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    color:rgb(10, 5, 5);
+    font-weight: bold;
+    display: inline;
+    text-decoration: none;
+    border: 2px solid teal;
+    margin-left: 40px;
+}
+p {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(10, 5, 5);
+    font-weight: bold;
+    height: 60px;
+    width: 100px;
+    border: 2px salmon;
+}
+#ans1:hover {
+    background-color: greenyellow;
+    color: red;
+}
+#ans2:hover {
+    background-color: greenyellow;
+    color: red;
+}
+#ans3:hover {
+    background-color: greenyellow;
+    color: red;
+}
+#ans4:hover {
+    background-color: greenyellow;
+    color: red;
+}
+#btn {
+    color: blue;
+    font-size: 25px;
+    background-color: peru;
+    width: 120px;
+    
+}
+#btn:hover {
+    background-color: darkturquoise;
+    color: red;
+}
+#strt{
+    margin-right: auto;
+    margin-left: auto;
+    width: 20px;
+}
+#scre {
+ color:rgb(248, 248, 115);
+ font-size: 30px;
+ text-align: center;
+ border: black;
+}
+
+#restart-button {
+    width: 150px;
+    font-size: 30px;
+    height: auto;
+    color: rgb(226, 253, 173);
+    border: rgb(10, 5, 5);
+}

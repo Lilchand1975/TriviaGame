@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <title>Chandra's Trivial Game</title>
+    <head>
+        <metacharset="utf-8">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <script src="assets/javascript/app.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-6"> 
+                        <h1>Totally Trivial Trivia </h1>
+                    </div>
+            </div>
+            <div id="strt">
+             <button type="button" id="btn">Start</button>
+            </div>
+
+            <div class="row" id="content">
+                <div class="row" id="time">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8">Time Remaining:<span id="remain"></span></div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <hr style="margin-top:20px;">
+
+                <div class="row" id="quest">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8" id="querry"></div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <br>
+                <br>
+                <div class="row" >
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8" style="text-align: center;">    
+                        <a href="#" id="ans1"></a>
+                        <a href="#" id="ans2"></a>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+                <br>
+                <div class="row" style="margin-top: 20px;">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8" style="text-align: center;"   >
+                        <a href="#" id="ans3"> </a>
+                        <a href="#" id="ans4"> </a>
+                    <div class="col-sm-2"></div>
+                    </div>      
+                </div>
+                <br>
+            </div> 
+            <div id="scre">
+                <h5>Score </h5>
+                <h5>Correct <span id="correct"></span></h5>
+                <h5>Wrong <span id="wrong"></span></h5>
+                <button id="restart-game">Restart</button>
+            </div>
+        </div>
+        
+    </body>
+</html>
